@@ -1,0 +1,17 @@
+.prod-main-img {
+	left: 50% !important;
+	margin-left: -980px;
+}
+.prod-item-box {
+	max-height: 450px;
+	overflow: hidden;
+}
+@media (max-width: 767px) {
+	.prod-main-img {
+		height: 16rem !important;
+		margin-left: -490px;
+	}
+	.prod-main-box {
+		height: 16rem;
+	}
+}
